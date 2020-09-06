@@ -1,0 +1,27 @@
+Package: 464xlat
+Version: 11
+Depends: libc, kmod-nat46, ip
+License: GPL-2.0
+Section: net
+Architecture: mips_mips32
+Installed-Size: 4423
+Filename: 464xlat_11_mips_mips32.ipk
+Size: 5145
+SHA256sum: 76287344c59b569865a0dfcce280ec4467b86de900e8f296f7f334d08869e366
+Description:  464xlat CLAT support
+
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: mips_mips32
+Installed-Size: 21893
+Filename: ahcpd_0.53-2_mips_mips32.ipk
+Size: 22673
+SHA256sum: 9e97a371f10ccdf2a1936403ba84d08983db6ba689340f1878359cded1986789
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
